@@ -6,12 +6,10 @@ Implementamos las PINNs en Tensorflow 2 para la resolución de la ecuación de o
 
 El entrenamiento puede ser acelerado utilizando GPUs, por lo que también se añade un notebook de colab <code> PINN_Inversión_2D.ipynb </code> donde se utilizó el GPU que proporciona Google.
 
-%## Solution
-%FDM simulation (at t = 0.5, 1.5, 5.0 (s)):
-%<img src="FDM.png">
+## Solución
+Por el método de diferencias finitas (en t = 0.0 s, 0.4 s, 6.0 s):
+<img src="Solución u df.png">
 
-%PINN solution (at t = 0.5, 1.5, 5.0 (s)):
-%<img src="./figures/PINN.png">
 
 ## Uso
 Para correr el código de la PINN, este se encuentra en <code> Inverso - PINN.ipynb </code>. 
